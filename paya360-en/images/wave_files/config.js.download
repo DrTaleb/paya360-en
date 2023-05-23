@@ -1,0 +1,20 @@
+Config = window.Config || {};
+
+Config.App = {
+    id: 110,
+    hash: '8da85b0d5bfe62527e5b244c209159c3',
+    cache_id: '0.0.4-3-6-475',
+    domains: ['office.mizito.ir'],
+    api_layer: 1,
+    client_url: 'https://office.mizito.ir/#/',
+    api_url: 'https://app.mizito.ir',
+    cdn_url: 'https://app.mizito.ir',
+    io_url: 'https://service.mizito.ir',
+    io_url_path: '',
+    has_online_support: true,
+    debug: false,
+    tasks_page_size: 25,
+    locale: 'fa'
+};
+
+Config.Mobile = false;

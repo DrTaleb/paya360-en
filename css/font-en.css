@@ -1,0 +1,591 @@
+.parent {
+    overflow: hidden;
+    width: 100%
+}
+
+.blog a, a {
+    text-decoration: none !important
+}
+
+.banner .btns, .blog a i {
+    vertical-align: middle
+}
+
+.btn-custom-blue, footer .footer-items ul.list-inline a:hover i, ol.breadcrumb .breadcrumb-item.active {
+    color: #1846dd !important
+}
+
+.banner, .btn-custom-blue, .btn-custom-bluedark, .loginpage .left-section, .myactivity div, .video-section, .videos {
+    position: relative
+}
+
+.top-blog-title, .top-blog-title > div {
+    min-height: 160px
+}
+
+.pagination li a:hover, ol.breadcrumb a:hover {
+    text-shadow: none !important
+}
+
+.blog a, .blog h5, .pagination li a:hover {
+    font-weight: 700 !important
+}
+
+.form-contactus input.email, .loginpage input {
+    direction: rtl !important
+}
+
+.my-btn-blue, .my-btn-outline-blue {
+    --bs-btn-border-color: #5145e5;
+    --bs-btn-focus-shadow-rgb: #f0f0f0;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-shadow: inset 0 3px 5px #f0f0f0
+}
+
+.back-top, .contact-float, .gallery-image .gallery .img-gallery:hover, .menu-icon, .tab label:hover {
+    cursor: pointer
+}
+
+@font-face {
+    font-family: SansSerifBookFLF;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/sans-serif/SansSerifBookFLF.eot);
+    src: url(../fonts/sans-serif/SansSerifBookFLF.eot?#iefix) format("embedded-opentype"), url(../fonts/sans-serif/SansSerifBookFLF.woff) format("woff"), url(../fonts/sans-serif/SansSerifBookFLF.otf) format("truetype")
+}
+
+@font-face {
+    font-family: SansSerifFLF-Demibold;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/sans-serif/SansSerifFLF-Demibold.eot);
+    src: url(../fonts/sans-serif/SansSerifFLF-Demibold.eot?#iefix) format("embedded-opentype"), url(../fonts/sans-serif/SansSerifFLF-Demibold.woff) format("woff"), url(../fonts/sans-serif/SansSerifFLF-Demibold.otf) format("truetype")
+}
+
+html body nav {
+    font-family: SansSerifFLF-Demibold;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/sans-serif/SansSerifBookFLF.otf)
+}
+
+footer .footer-items ul.list-inline a:hover, h1 {
+    padding: 0
+}
+
+
+.customers-section h5, .more-contact-us, .nav-header ul li a, .sec-startup h4 {
+    font-family: SansSerifBookFLF
+}
+
+nav .dropdown i {
+    font-size: 10px;
+}
+
+
+nav a, nav li {
+    letter-spacing: .5px;
+    font: 16px SansSerifBookFLF !important
+}
+
+.footer-item-list a:hover{
+    text-shadow: 0 0 3px #5145e5;
+}
+.banner {
+    height: 450px;
+}
+@media (max-width:576px) {
+    .banner {
+    height: 600px;
+}
+}
+
+.banner .btns p, h3 {
+    font: 2.3rem SansSerifBookFLF;
+    font-display: swap;
+    src: url(../fonts/sans-serif/SansSerifBookFLF.otf)
+}
+
+.box.show, h1 {
+    font-family: SansSerifBookFLF;
+    font-display: swap;
+    src: url(../fonts/sans-serif/SansSerifBookFLF.otf)
+}
+
+.box.show, h1, h1 em {
+    font-style: normal
+}
+
+footer hr {
+    opacity: .15 !important
+}
+footer .navaak-info {
+    margin-top: 10px;
+    font-size: .8rem;
+    text-align: justify !important;
+    line-height: 1.5
+}
+
+footer .footer-items h6 {
+    color: #001334;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+footer .footer-items ul {
+    list-style-type: none;
+    padding: 0 10px 0 0
+}
+
+footer .footer-items ul li {
+    margin-bottom: 5px
+}
+
+footer .footer-items ul a {
+    transition: .3s;
+    text-decoration: none;
+    font-weight: 400 !important;
+    color: #001334 !important;
+    font-size: 13px !important
+}
+
+footer .footer-items ul i {
+    margin-right: 10px;
+    font-size: 1rem !important
+}
+
+@media (max-width: 1200px) {
+    .contactusbox ul {
+        display: block
+    }
+
+    .contactusbox ul li {
+        display: inline;
+        padding: 0;
+        margin: 0
+    }
+}
+
+.pagination li a, footer .footer-items ul.list-inline {
+    padding: 0 !important;
+}
+
+footer .footer-items ul a:hover {
+    padding-right: 4px
+}
+
+footer .footer-items ul a::before {
+    content: "";
+    width: 2px;
+    height: 35px;
+    display: inline-block;
+    background-color: #5145e52e;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+    border-radius: 5px
+}
+
+footer .footer-items ul.list-inline a {
+    font: 20px/30px SansSerifBookFLF;
+    transition: .3s
+}
+
+footer .footer-items ul.list-inline a i {
+    color: #a8a8a8;
+    overflow: hidden !important;
+    font-size: 1.3rem !important;
+    transition: .4s;
+    padding: 3px
+}
+
+footer .footer-items ul.list-inline a::before {
+    content: "";
+    display: none !important
+}
+
+footer .footer-items .form-footer input {
+    direction: ltr !important;
+    border: none;
+    background-color: rgba(168, 168, 168, .1)
+}
+
+
+
+footer .footer-items .form-footer input:focus::-moz-placeholder {
+    padding-right: 5px
+}
+
+footer .footer-items .form-footer input:focus:-ms-input-placeholder {
+    padding-right: 5px
+}
+
+footer .footer-items .form-footer input:focus::placeholder {
+    padding-right: 5px
+}
+
+footer .footer-items .form-footer input::-moz-placeholder {
+    direction: rtl !important;
+    -moz-transition: .2s;
+    transition: .2s;
+    color: rgba(168, 168, 168, .6);
+    font-size: 14px
+}
+
+footer .footer-items .form-footer input:-ms-input-placeholder {
+    direction: rtl !important;
+    -ms-transition: .2s;
+    transition: .2s;
+    color: rgba(168, 168, 168, .6);
+    font-size: 14px
+}
+
+footer .footer-items .form-footer input::placeholder {
+    direction: rtl !important;
+    transition: .2s;
+    color: rgba(168, 168, 168, .6);
+    font-size: 14px
+}
+
+footer .contactusbox a::before {
+    content: "";
+    width: 0 !important;
+    height: 0 !important
+}
+
+
+.top-blog-title, .top-blog-title-forms {
+    background-color: #1846dd;
+    color: #fff;
+    border-radius: 0 0 40px 40px
+}
+
+
+@-webkit-keyframes pulse {
+    100% {
+        width: 150%;
+        height: 150%;
+        opacity: 0
+    }
+}
+
+@keyframes pulse {
+    100% {
+        width: 150%;
+        height: 150%;
+        opacity: 0
+    }
+}
+
+ol.breadcrumb a, ol.breadcrumb li {
+    font-size: 1rem !important
+}
+
+ol.breadcrumb a {
+    text-decoration: none;
+    color: #ccc !important
+}
+
+@media (max-width: 600px) {
+    .top-blog-title {
+        max-width: 300px !important
+    }
+
+    .top-blog-title h2 {
+        font-size: 16px !important
+    }
+}
+
+
+
+.blog-single .card .card-body a, .services-section .lastnews .card .card-body a {
+    text-decoration: none;
+    color: #001334 !important;
+    font-size: 14px !important;
+    font-weight: 700
+}
+
+.blog-single .card .card-text, .services-section .lastnews .card .card-text {
+    word-spacing: -2px;
+    font-size: 1rem;
+}
+
+
+.single-blog h1, .single-blog h2, .single-blog h3, .single-blog h4, .single-blog h5, .single-blog h6 {
+    font-size: 24px;
+    color: #001334;
+    font-weight: 600
+}
+
+.single-blog p {
+    line-height: 1.5
+}
+
+.gallery-image h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #001334;
+    transition: .2s
+}
+
+.aboutus h2, .myactivity h6 {
+    font-weight: 900
+}
+
+@media (min-width: 600px) {
+    .px-6 {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important
+    }
+}
+
+.aboutus p {
+    line-height: 2
+}
+
+@media (max-width: 480px) {
+    .aboutus .person-about img {
+        margin: 0 auto !important
+    }
+}
+
+.aboutus .person-about h3, .aboutus .person-about h4, .aboutus .person-about h5, .aboutus .person-about h6 {
+    font-weight: 900;
+    text-align: center
+}
+
+.aboutus .swiper-button-next, .aboutus .swiper-button-prev {
+    color: #000;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 900 !important
+}
+
+.aboutus .swiper-button-next::after, .aboutus .swiper-button-prev::after {
+    font-size: 1.3rem
+}
+
+.aboutus .swiper-pagination {
+    position: absolute;
+    bottom: 0
+}
+
+.yBoxOverlay.active {
+    z-index: 100000
+}
+
+.yBoxFrame {
+    background: 0 0 !important;
+    border-radius: 20px
+}
+
+.yBoxFrame .yBoxImgZoom {
+    z-index: 10000
+}
+
+.yBoxFrame .insertYboxAjaxHere {
+    border-radius: 20px;
+    padding: 0 !important
+}
+
+.yBoxFrame .closeYbox {
+    background-color: transparent
+}
+
+.pictures-single a {
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden !important
+}
+
+.pictures-single img {
+    justify-content: center;
+    -o-object-fit: 100% 100%;
+    object-fit: 100% 100%;
+    width: 100%;
+    min-height: 300px !important;
+    max-height: 300px !important
+}
+
+.loginpage {
+    width: 100vw;
+    overflow: hidden
+}
+
+.loginpage .bg-custom {
+    position: relative;
+    height: 100vh
+}
+
+@media (max-width: 767px) {
+    .loginpage .bg-custom::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url("../images/pt-12.png") center/cover no-repeat;
+        z-index: -1
+    }
+}
+
+.loginpage .left-section::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.loginpage .left-section img, .loginpage .left-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover
+}
+
+.loginpage label {
+    text-align: left !important;
+    width: 100%
+}
+
+.loginpage input {
+    background-color: #fff;
+    border: none
+}
+
+.loginpage input:focus::-moz-placeholder {
+    padding-right: 5px
+}
+
+.loginpage input:focus:-ms-input-placeholder {
+    padding-right: 5px
+}
+
+.loginpage input:focus::placeholder {
+    padding-right: 5px
+}
+
+.loginpage input::-moz-placeholder {
+    font-size: .8rem;
+    direction: rtl !important;
+    -moz-transition: .2s;
+    transition: .2s;
+    color: rgba(168, 168, 168, .9);
+    background-color: #fff
+}
+
+.loginpage input:-ms-input-placeholder {
+    font-size: .8rem;
+    direction: rtl !important;
+    -ms-transition: .2s;
+    transition: .2s;
+    color: rgba(168, 168, 168, .9);
+    background-color: #fff
+}
+
+.back-top, .back-top i {
+    transition: .5s ease-out
+}
+
+.loginpage input::placeholder {
+    font-size: .8rem;
+    direction: rtl !important;
+    transition: .2s;
+    color: rgba(168, 168, 168, .9);
+    background-color: #fff
+}
+
+.back-top {
+    width: 35px;
+    height: 35px;
+    border-radius: 60px;
+    background-color: #5145e5;
+    bottom: -100%;
+    left: 45px
+}
+
+.back-top:hover {
+    transform: rotate(45deg)
+}
+
+.back-top:hover i {
+    transform: rotate(-45deg)
+}
+
+.back-top i {
+    line-height: 35px;
+    width: 100%;
+    text-align: center;
+    color: #fff
+}
+
+.more-contact-us i {
+    font-size: 2rem;
+    margin-bottom: 10px
+}
+
+.more-contact-us a {
+    border-radius: 10px !important;
+    border: 2px solid #1846dd;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.more-contact-us a p {
+    font-size: 1rem;
+    margin-bottom: 0
+}
+
+.form-contactus input::-moz-placeholder {
+    -moz-transition: .3s;
+    transition: .3s
+}
+
+.form-contactus input:-ms-input-placeholder {
+    -ms-transition: .3s;
+    transition: .3s
+}
+
+.form-contactus input::placeholder {
+    transition: .3s
+}
+
+.form-contactus input:focus, .form-contactus select:focus, .form-contactus textarea:focus {
+    box-shadow: none;
+    border: 1px solid #1846dd
+}
+
+.form-contactus input:focus::-moz-placeholder {
+    transform: translateX(-5px)
+}
+
+.form-contactus input:focus:-ms-input-placeholder {
+    transform: translateX(-5px)
+}
+
+.form-contactus input:focus::placeholder {
+    transform: translateX(-5px)
+}
+
+.form-contactus textarea::-moz-placeholder {
+    -moz-transition: .3s;
+    transition: .3s
+}
+
+.form-contactus textarea:-ms-input-placeholder {
+    -ms-transition: .3s;
+    transition: .3s
+}
+
+
+
